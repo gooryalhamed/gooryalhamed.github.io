@@ -6,6 +6,27 @@
     -moz-transition: all 0.3s;
     transition: all 0.3s;
   }
+  @media (min-width: 768px) {
+  header .intro-text {
+    padding-top:200px;
+    padding-bottom: 200px;
+  }
+  header .intro-text .welcome {
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 25px;
+  }
+  header .intro-text .intro-heading {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 75px;
+    margin-bottom: 50px;
+  }
+}
 }
 /* sm screen */
 @media(max-width:767px){

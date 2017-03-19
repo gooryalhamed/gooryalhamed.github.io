@@ -1,4 +1,4 @@
-body{background-image: url("../img/background.jpg");background-repeat: no-repeat;background-size:cover;overflow-y:hidden;}
+body{background-image:url("../img/background.jpg");background-repeat: no-repeat;background-size:cover;overflow-y:hidden;}
 .custom-header{background:#e6e6e6;border-radius:0;}
 .custom-header .navbar-brand{color:#404040;font-family:cookie;font-size:32px}
 .custom-header .nav li{border-radius:8px}

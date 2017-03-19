@@ -6,34 +6,23 @@ body{background-image: url("../img/background.jpg");background-repeat: no-repeat
 .custom-header .nav li a:hover{color:#fff;background-color:#404040}
 .custom-header .navbar-toggle,.custom-header .navbar-toggle:focus{background-color:#404040;border-color:#fff;color:#fff}
 .custom-header .navbar-toggle:hover{background-color:#d633ff;border-color: #d633ff}
-header .intro-text {
-	padding-top:50px;
-	padding-bottom:50px;
-	color:#fff;
-}
-header .intro-text .welcome {
-	font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-style: italic;
-	font-size: 22px;
-	line-height: 22px;
-	margin-bottom: 25px;
-}
-header .intro-text .intro-heading {
-	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+header .intro-text{padding-top:50px;padding-bottom:50px;color:#fff}
+header .intro-text .welcome{font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;font-style:italic;font-size:22px;line-height:22px;margin-bottom:25px}
+header .intro-text .intro-heading{
+	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
-	font-weight: 700;
-	font-size: 50px;
-	line-height: 50px;
-	margin-bottom: 25px;
+	font-weight:700;
+	font-size:50px;
+	line-height:50px;
+	margin-bottom:25px;
 }
 .btn-more{
   color: white;
   background-color:#e066ff;
   border-color:#e066ff;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  border-radius: 3px;
+  border-radius:4px;
   font-size: 18px;
   padding: 20px 40px;
 }

@@ -1,0 +1,13 @@
+@media (min-width: 768px) {
+  .custom-header {padding:16px 0;-webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;transition: padding 0.3s;}
+  .custom-header .navbar-brand {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+}
+/* sm screen */
+@media(max-width:767px){
+	.custom-header{padding:5px 10px}
+}

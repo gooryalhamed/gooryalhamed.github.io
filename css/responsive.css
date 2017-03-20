@@ -1,11 +1,7 @@
 @media (min-width:768px) {
   .custom-header {padding:10px 0;-webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;transition: padding 0.3s;}
-  .custom-header .navbar-brand {
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-  }
+  .custom-header .navbar-brand{-webkit-transition: all 0.3s;-moz-transition: all 0.3s;transition: all 0.3s;}
   header .intro-text{padding-top:200px}
   header .intro-text .welcome{
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -22,7 +18,6 @@
 @media (max-width:990px) {
   header .intro-text .intro-heading{font-size:60px}
 }
-
 @media(max-width:767px){
 	.custom-header{padding:5px 10px}
   header .intro-text{padding-top:100px}

@@ -1,9 +1,16 @@
-nav{border-bottom:1px solid #ddd}
-.nav li a{color:#404040;letter-spacing: 2px;font-size:18px}
-.nav li a:hover{background-color:#33334d;color:#fff}
-#myimg{max-width:80%;}
-.about-me{font-size:18px;font-family:'Helvetica';margin-top:60px}
-.container{padding:60px 40px;border-bottom:1px solid #ddd;box-shadow:2px 2px 2px #ccc;background-color:#33334d;margin-top:50px;border-radius:4px;color: #fff}
+/*nav */
+.navbar-nav a{color:#404040;letter-spacing: 2px;font-size:18px;color:#404040;text-decoration:underline;}
+.nav li a:hover{color:#fff;background: none}
+
+/* header */
+#myimg{max-width:30%;}
+.about-me{font-size:18px;font-family:'Helvetica';margin-top:60px;}
+.container .text h1{padding-top:20px}
+.container{padding:0px 40px;margin-top:50px;border-radius:4px;color:black}
 .container .title{font-family: 'Spirax', cursive;}
- body{overflow-x: hidden;}
+ body{overflow-x: hidden;background-image: url('../img/background-blue-with-circles.jpg');background-repeat: no-repeat;background-size: cover;}
+.container figcaption{color:#505070}
+
+
+
 

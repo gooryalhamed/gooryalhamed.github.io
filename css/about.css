@@ -4,4 +4,6 @@ nav{border-bottom:1px solid #ddd}
 #myimg{max-width:80%;}
 .about-me{font-size:18px;font-family:'Helvetica';margin-top:60px}
 .container{padding:60px 40px;border-bottom:1px solid #ddd;box-shadow:2px 2px 2px #ccc;background-color:#33334d;margin-top:50px;border-radius:4px;color: #fff}
-.container #title{font-family: 'Spirax', cursive;}
+.container .title{font-family: 'Spirax', cursive;}
+ body{overflow-x: hidden;}
+

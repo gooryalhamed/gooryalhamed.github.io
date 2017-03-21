@@ -1,18 +1,14 @@
 /*nav */
-.navbar-nav a{color:#404040;letter-spacing:2px;font-size:18px;text-decoration:underline;}
-.nav li a:hover{color:#fff;background: none}
+.navbar-nav a{color:black;letter-spacing:2px;font-size:18px;text-decoration:underline;}
+.nav li a:hover{background-color:#404040;color:#fff}
 
 /* header */
-div.container{padding-top:40px;box-shadow:1px 1px 2px #505050}
+div.container{padding-top:40px;box-shadow:1px 1px 2px #ddd;}
 #myimg{max-width:100%}
 .about-me{font-size:18px;font-family:'Helvetica';margin-top:40px;}
 .container .col-lg-8{padding-left:40px}
 .container .col-lg-8 a{color: inherit;font-style: italic;}
 .container{padding:0px 40px;margin-top:50px;border-radius:4px;color:black}
 .container .title{font-family: 'Spirax', cursive;}
- body{overflow-x: hidden;background-image: url('../img/backg.jpg');background-repeat: no-repeat;background-size: cover;}
-.container figcaption{color:#505070;font-size:16px; }
-
-
-
-
+ body{overflow-x: hidden;background-image: url('../img/background-blue-with-circles.jpg');background-repeat: no-repeat;background-size: cover;}
+.container figcaption{color:#404040;font-size:16px; }

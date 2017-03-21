@@ -3,12 +3,14 @@
 .nav li a:hover{background-color:#404040;color:#fff}
 
 /* header */
-div.container{padding-top:40px;box-shadow:1px 1px 2px #ddd;}
+div.container .col-lg-8{height:500px;overflow-y:scroll;}
 #myimg{max-width:100%}
 .about-me{font-size:18px;font-family:'Helvetica';margin-top:40px;}
 .container .col-lg-8{padding-left:40px}
 .container .col-lg-8 a{color: inherit;font-style: italic;}
 .container{padding:0px 40px;margin-top:50px;border-radius:4px;color:black}
-.container .title{font-family: 'Spirax', cursive;}
+#title h1{font-family: 'Spirax', cursive;font-size:50px}
  body{overflow-x: hidden;background-image: url('../img/background-blue-with-circles.jpg');background-repeat: no-repeat;background-size: cover;}
 .container figcaption{color:#404040;font-size:16px; }
+.container .col-lg-8{background-color:#fff;border-radius:8px}
+.container .col-lg-8 .heading{font-size:22px;font-family:monospace;}

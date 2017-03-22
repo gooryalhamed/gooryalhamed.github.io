@@ -30,7 +30,7 @@ header .intro-text .intro-heading{
 .btn-contact:focus,
 .btn-contact:active,
 .btn-contact.active{color:#404040;background-color:#ffff66;border-color:#ffff66;}
-#frm-contact{left:380px;width:520px;height:300px;position:absolute;border:1px solid #fff;background-color:#fff;padding:50px 20px;box-shadow:1px 1px 1px #ddd;animation-name:form;animation-duration:0.5s;z-index:0; animation-fill-mode: forwards;}
+#frm-contact{display: none;left:380px;width:520px;height:300px;position:absolute;border:1px solid #fff;background-color:#fff;padding:50px 20px;box-shadow:1px 1px 1px #ddd;animation-name:form;animation-duration:0.5s;z-index:0; animation-fill-mode: forwards;}
 #frm-contact span{cursor:pointer;color:#505050;font-size:20px;position:absolute;top:3px;right:10px}
 #frm-contact .col-md-6 #name,#frm-contact .col-md-6 #message,#frm-contact .col-lg-12 button{margin-top:20px}
 #frm-contact .col-md-6 #message{height:130px}

@@ -30,4 +30,7 @@ header .intro-text .intro-heading{
 .btn-contact:focus,
 .btn-contact:active,
 .btn-contact.active{color:#404040;background-color:#ffff66;border-color:#ffff66;}
-#frm-contact{visibility:hidden;min-width:100%;min-height:100%;position:absolute;top:0px;left:0px}
+#frm-contact{width:520px;height:300px;position:absolute;top:200px;left:400px;border:1px solid #fff;background-color:#fff;padding:50px 20px;box-shadow:1px 1px 1px #ddd}
+#frm-contact span{color:#404040;font-size:20px;position:fixed;top:210px;right:400px;z-index:1;}
+#frm-contact .col-md-6 #name,#frm-contact .col-md-6 #message,#frm-contact .col-lg-12 button{margin-top:20px}
+#frm-contact .col-md-6 #message{height:130px}

@@ -13,7 +13,7 @@ $('.custom-header .collapse ul li #skills').click(function(){
 });
 function loadSkills(){
 	$.ajax({
-		url:"../skills.html",
+		url:"../skills.json",
 		type:"GET"
 		dataType:json,
 		success:function(data){
@@ -33,5 +33,5 @@ function showResults(json){
 	$('.container success').html(html)
 }
 function showError(error){
-	$('.container .error').html("${error}");
+	$('.container .error').html(`${error}`);
 }

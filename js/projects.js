@@ -1,7 +1,8 @@
-$('.container #current').click(function(){
+$('.container #current').click(function(event){
 	loadProjects();
+	event.preventDefault();
 })
-function loadProjects(token){
+function loadProjects(){
 	$.ajax({
 		url:'https://api.github.com/users/gooryalhamed/repos?sort=created',
 		type:'GET',

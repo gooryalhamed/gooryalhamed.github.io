@@ -11,7 +11,7 @@ function onClickCurrent(){
 } 
 function onClickFavorite(){
 	$('.container #favorite').click(function(event){
-		loadFProjects();
+		loadFavProjects();
 		event.preventDefault();
 	});	
 } 
@@ -41,17 +41,17 @@ function showError(error){
 	$('.container .error').html(`${error}`);
 }
 /* favorite */
-function loadFProjects(){
+function loadFavProjects(){
 	$.ajax({
 		url:'',
 		type:'GET',
 		dataType:'json',
 		success: function(){
-			showFavoriteProjects();
+			showFavProjects();
 		},
 		fail:showError
 	})
 }
-function showFavoriteProjects(){
+function showFavProjects(){
 
 }

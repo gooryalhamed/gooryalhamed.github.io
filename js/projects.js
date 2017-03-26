@@ -1,3 +1,6 @@
+$('body').load(function(){
+	loadProjects();
+});
 function loadProjects(token){
 	$.ajax({
 		url:'',

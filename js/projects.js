@@ -32,8 +32,8 @@ function showProjects(json){
 	var html = '';
 	html+= '<div>';
 	$.each(data,function(i,item){
-		html+= '<h3>' + item.name+'</h3>'
-		html+= item.html_url;
+		html+= '<a href="'+item.html_url+'" target="_blank">'+item.name+'</a>';
+		html+= '<br>'
 	});
 	$('.container .panel .panel-body').append(html);
 }

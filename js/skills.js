@@ -1,3 +1,6 @@
+$('body').load(function(){
+	loadSkills();
+});
 function loadSkills(){
 	$.ajax({
 		url:'../skills.json',

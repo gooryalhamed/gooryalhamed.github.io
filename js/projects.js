@@ -1,7 +1,3 @@
-$('').click(function(){
-	
-})
-
 function loadProjects(token){
 	$.ajax({
 		url:'',
@@ -13,12 +9,12 @@ function loadProjects(token){
 		success:function(data){
 			showProjects(data)
 		},
-		fail:showError2
+		fail:showError
 	})
 }
 function showProjects(){
 
 }
 function showError(){
-
+	$('.container .error').html(`${error}`);
 }

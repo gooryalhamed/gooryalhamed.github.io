@@ -1,6 +1,3 @@
-$('.custom-header .collapse ul li #skills').click(function(){
-	loadSkills();
-});
 function loadSkills(){
 	$.ajax({
 		url:'../skills.json',

@@ -1,7 +1,21 @@
-$('.container #current').click(function(event){
+$(document).ready(function(){
 	loadProjects();
-	event.preventDefault();
-})
+	onClickCurrent();
+});
+
+function onClickCurrent(){
+	$('.container #current').click(function(event){
+		loadProjects();
+		event.preventDefault();
+	});	
+} 
+function onClickFavorite(){
+	$('.container #favorite').click(function(event){
+		loadFProjects();
+		event.preventDefault();
+	});	
+} 
+
 function loadProjects(){
 	$.ajax({
 		url:'https://api.github.com/users/gooryalhamed/repos?sort=created',
@@ -25,4 +39,19 @@ function showProjects(json){
 }
 function showError(error){
 	$('.container .error').html(`${error}`);
+}
+/* favorite */
+function loadFProjects(){
+	$.ajax({
+		url:'',
+		type:'GET',
+		dataType:'json',
+		success: function(){
+			showFavoriteProjects();
+		},
+		fail:showError
+	})
+}
+function showFavoriteProjects(){
+
 }

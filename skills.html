@@ -3,7 +3,15 @@
 <head>
 	<title>skills</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/shared.css">
+	<link href="https://fonts.googleapis.com/css?family=Spirax" rel="stylesheet">
 </head>
+<style>
+	body{background-color:#dab3ff}
+	.container{width:500px}
+	.container #success ul li{font-size:18px}
+	.container #title{color:#fff;font-size:60px;font-family:'Spirax'}
+</style>
 <body>
 	<nav>
 		<div class="container-fluid">
@@ -15,10 +23,9 @@
 		</div>
 	</nav>
 	<div class="container">
-		<h1>MY SKILLS</h1>
+		<h1 id="title">MY SKILLS</h1>
 		<div class="row">
 			<div id="success"></div>
-			<div class="error"></div>
 		</div>
 	</div>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

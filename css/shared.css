@@ -1,3 +1,4 @@
+
 .custom-header{background:#e6e6e6;border-radius:0;}
 .custom-header .navbar-brand{color:#404040;font-family:cookie;font-size:32px}
 .custom-header .nav li{border-radius:8px}
@@ -5,3 +6,4 @@
 .custom-header .nav li a:hover{color:#fff;background-color:#404040}
 .custom-header .navbar-toggle,.custom-header .navbar-toggle:focus{background-color:#404040;border-color:#fff;color:#fff}
 .custom-header .navbar-toggle:hover{background-color:#d633ff;border-color: #d633ff}
+.container h1{font-family:'Spirax';font-size:50px;color:#fff}

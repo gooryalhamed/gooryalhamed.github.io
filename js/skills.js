@@ -2,7 +2,7 @@ $(document).ready(function(){
 	loadSkills();
 })
 function loadSkills(){
-	$.get('skills.json',function(data){
+	$.get('../skills.json',function(data){
 		var html =''
 		html+= '<ul>'
 		$.each(data.skills,function(i,res){

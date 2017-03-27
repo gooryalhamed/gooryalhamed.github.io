@@ -1,6 +1,7 @@
 $(document).ready(function(){
 	loadProjects();
 	onClickCurrent();
+	onClickFavorite()
 });
 
 function onClickCurrent(){
@@ -8,13 +9,7 @@ function onClickCurrent(){
 		loadProjects();
 		event.preventDefault();
 	});	
-} 
-function onClickFavorite(){
-	$('.container #favorite').click(function(event){
-		loadFavProjects();
-		event.preventDefault();
-	});	
-} 
+}  
 
 function loadProjects(){
 	$.ajax({
@@ -41,17 +36,12 @@ function showError(error){
 	$('.container .error').html(`${error}`);
 }
 /* favorite */
-function loadFavProjects(){
-	$.ajax({
-		url:'',
-		type:'GET',
-		dataType:'json',
-		success: function(){
-			showFavProjects();
-		},
-		fail:showError
-	})
+function onClickFavorite(){
+	$('.container #favorite').click(function(event){
+		loadFavProjects();
+		event.preventDefault();
+	});	
 }
-function showFavProjects(){
-
+function loadFavProjects(){
+	
 }

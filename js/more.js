@@ -15,7 +15,7 @@ $(document).ready(function(){
  	var html= '';
  	html+= '<ul>'
  	$.each(json.items,function(i, item){
- 		html+= '<li><img src="'+item.snippet.thumbnails.medium.url+'"</img><span>'+ item.snippet.title +'</span></li>';
+ 		html+= '<li><a href="https://www.youtube.com/watch?v='+item.snippet.resourceId.videoId+'&list='+item.snippet.playlistId+'"><img src="'+item.snippet.thumbnails.medium.url+'"</img></a><span>'+ item.snippet.title +'</span></li>';
  	});
  	$('.container #success').html(html);	
  }

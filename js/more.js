@@ -8,15 +8,14 @@ $(document).ready(function(){
  		dataType:'json',
  		success: function(data){
  			showPlaylist(data)
- 		},
- 		fail:alert('sorry,loading failed')
+ 		}
  	});
  }
  function showPlaylist(json){
  	var html= '';
  	html+= '<ul>'
  	$.each(json.items,function(i, item){
- 		html+= '<li><video><source src="'+item.thumbnails.medium.url+'" type="video/mp4"></video><span>'+ item.snippet.title +'</span></li>';
+ 		html+= '<li><img src="'+item.snippet.thumbnails.medium.url+'"</img><span>'+ item.snippet.title +'</span></li>';
  	});
  	$('.container #success').html(html);	
  }

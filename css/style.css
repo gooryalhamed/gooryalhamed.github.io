@@ -30,10 +30,9 @@ header .intro-text .intro-heading{
 .btn-contact:focus,
 .btn-contact:active,
 .btn-contact.active{color:#404040;background-color:#ffff66;border-color:#ffff66;}
-#frm-contact{display: none;left:380px;width:520px;height:400px;position:absolute;border:1px solid #fff;background-color:#fff;padding:50px 20px;box-shadow:1px 1px 1px #ddd;animation-name:form;animation-duration:0.5s;z-index:0; animation-fill-mode: forwards;}
+#frm-contact{display: none;left:380px;width:400px;height:400px;position:absolute;border:1px solid #fff;background-color:#fff;padding:50px 50px;box-shadow:1px 1px 1px #ddd;animation-name:form;animation-duration:0.5s;z-index:0; animation-fill-mode: forwards;}
 #frm-contact span{cursor:pointer;color:#505050;font-size:20px;position:absolute;top:3px;right:10px}
 #frm-contact .col-md-6 #name,#frm-contact .col-md-6 #message,#frm-contact .col-lg-12 button{margin-top:20px}
-#frm-contact .col-md-6 #message{height:130px}
 @keyframes form{from{top:0}to{top:200px}}
 #frm-contact .form-group .form-control:focus{border-color:#d633ff;box-shadow: none;}
 div.container .alert-danger{width:200px}

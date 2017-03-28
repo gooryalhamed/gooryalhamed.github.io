@@ -7,7 +7,7 @@ function submitForm(){
     formdata.append( "e", _("email").value );
     formdata.append( "m", _("message").value );
     var ajax = new XMLHttpRequest();
-    ajax.open( "POST", "mail/contact_me.php" );
+    ajax.open( "POST", "../mail/contact_me.php" );
     ajax.onreadystatechange = function() {
         if(ajax.readyState == 4 && ajax.status == 200) {
             if(ajax.responseText == "success"){

@@ -17,15 +17,19 @@
 }
 @media (max-width:990px) {
   header .intro-text .intro-heading{font-size:60px}
+  #frm-contact{left:300px}
 }
 @media(max-width:767px){
 	.custom-header{padding:5px 10px}
   header .intro-text{padding-top:100px}
+  #frm-contact{left:230px;width:360px}
 }
 @media (max-width:740px){
   header .intro-text .intro-heading{font-size:40px}
   header .intro-text .btn{padding:12px 20px;font-size:16px}
+  #frm-contact{left:200px;width:330px}
 }
 @media (max-width:500px) {
   header .intro-text .intro-heading{font-size:30px}
+  #frm-contact{left:100px;width:280px}
 }

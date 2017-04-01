@@ -3,4 +3,4 @@ body{background-image: url('../img/background-blue-with-circles.jpg')}
 .container h1{font-family:'Spirax';font-size:60px;margin-bottom:30px}
 .container p{font-size:18px;color:black}
 .container a{color:inherit;text-decoration:underline}
-.container #mytext{background-color:#fff}
+.container #mytext{background-color:#fff;border-radius:14px}

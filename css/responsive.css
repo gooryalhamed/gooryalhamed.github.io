@@ -1,5 +1,5 @@
 @media (min-width:768px) {
-  .custom-header {padding:10px 0;-webkit-transition: padding 0.3s;
+  .custom-header{padding:10px 0;-webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;transition: padding 0.3s;}
   .custom-header .navbar-brand{-webkit-transition: all 0.3s;-moz-transition: all 0.3s;transition: all 0.3s;}
   header .intro-text{padding-top:200px}
@@ -14,6 +14,7 @@
     line-height: 75px;
     margin-bottom: 50px;
   }
+  body{min-width:100%}
 }
 @media (max-width:990px) {
   header .intro-text .intro-heading{font-size:60px}
@@ -31,5 +32,6 @@
 }
 @media (max-width:500px) {
   header .intro-text .intro-heading{font-size:30px}
-  #frm-contact{left:100px;width:280px}
+  #frm-contact{top:0px;left:0px;width:100%;animation:none;z-index:500}
+  .custom-header{z-index:0}
 }

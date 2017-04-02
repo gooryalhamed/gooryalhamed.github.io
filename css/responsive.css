@@ -20,8 +20,8 @@
   #frm-contact{left:300px}
 }
 @media(max-width:767px){
-  header{padding-top: 160px}
   #frm-contact{left:230px;width:360px}
+  header{padding-top:150px}
 }
 @media (max-width:740px){
   header .intro-text .intro-heading{font-size:40px}

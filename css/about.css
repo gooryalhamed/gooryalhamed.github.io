@@ -4,3 +4,4 @@ body{background-image: url('../img/background-blue-with-circles.jpg')}
 .container p{font-size:18px;color:black}
 .container a{color:inherit;text-decoration:underline}
 .container #mytext{background-color:#fff;border-radius:14px}
+.container #recoded-staff img{display:block;}

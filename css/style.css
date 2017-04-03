@@ -8,25 +8,30 @@ body{background-image:url("../img/background.jpg");background-repeat: no-repeat;
 .custom-header .navbar-toggle:hover{background-color:#d633ff;border-color: #d633ff}
 /*header*/
 header #intro-text{padding-top:40px;color:#fff}
-#intro-text h1{ font-family: 'Montserrat', sans-serif;text-transform: uppercase;font-weight:700;
-  font-size:60px;
-  line-height:50px;
-  margin-bottom:25px;}
-header .welcome{font-family:"Droid Serif",sans-serif;font-style:italic;font-size:30px;line-height:22px;margin-bottom:50px}
-.btn-contact{
-  color: white;
-  background-color:#e066ff;
-  border-color:#e066ff;
-  text-transform: uppercase;
-  font-weight: 700;
-  border-radius:4px;
-  font-size: 18px;
-  padding: 20px 40px;
+#intro-text h1{font-family: 'Montserrat', sans-serif;text-transform: uppercase;font-weight:700;
+font-size:60px;animation:bounceInDown 5s 1;
+line-height:50px;
+margin-bottom:25px;}
+header .welcome{font-family:"Droid Serif",sans-serif;font-style:italic;font-size:30px;line-height:22px;margin-bottom:110px}
+.btn-contact{color: white;background-color:#e066ff;border-color:#e066ff;
+  font-weight:700;border-radius:50%;font-size:14px;padding:33px 8px;
+  position:absolute;top:370px;right:600px;box-shadow:5px 3px 25px #fff}
+@keyframes pulse {
+    0% {
+      transform: scale(1) rotate(0deg); 
+    }
+    50% {
+      transform: scale(1.1) rotate(-5deg); 
+    }
+    100% {
+      transform: scale(1) rotate(0deg); 
+    }
 }
+.btn-contact:hover{animation: pulse 1s ease 0s infinite normal}
 .btn-contact:hover,
 .btn-contact:focus,
 .btn-contact:active,
-.btn-contact.active{color:#404040;background-color:#ffff66;border-color:#ffff66;}
+.btn-contact.active{color:#fff;background-color:#303030;border-color:#303030}
 #frm-contact{display: none;left:420px;width:400px;height:400px;position:absolute;border:1px solid #fff;background-color:#fff;box-shadow:1px 1px 1px #ddd;animation-name:form;animation-duration:0.5s;animation-fill-mode: forwards;padding:50px 30px}
 #frm-contact span{cursor:pointer;color:#505050;font-size:20px;position:absolute;top:3px;right:10px}
 #frm-contact .col-md-6 #name,#frm-contact .col-md-6 #message,#frm-contact .col-lg-12 button{margin-top:20px}
@@ -35,13 +40,13 @@ header .welcome{font-family:"Droid Serif",sans-serif;font-style:italic;font-size
 div.container .alert-danger{width:200px}
 /*clock*/
 #time{
-    text-align:center;
-    font-family:serif;
-    color:#fff;
-    letter-spacing:2px;
-    font-size:50px;
-    text-shadow:5px 3px 25px #fff;
-    border-radius:30px;
+  text-align:center;
+  font-family:serif;
+  color:#fff;
+  letter-spacing:2px;
+  font-size:50px;
+  text-shadow:5px 3px 30px #fff;
+  border-radius:30px;
 }
 #date{font-size:20px;color:white;text-align:center;font-family:serif;border-radius:30px;
 }

@@ -1,7 +1,0 @@
-@media (min-width:768px){
-	body{overflow:visible;}
-	.container{padding-top:100px}
-}
-@media(max-width:767px){
-	.container{padding-top:150px}
-}

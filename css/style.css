@@ -6,6 +6,7 @@ body{background-image:url("../img/background.jpg");background-repeat: no-repeat;
 .custom-header .nav li a:hover{color:#fff;background-color:#404040}
 .custom-header .navbar-toggle,.custom-header .navbar-toggle:focus{background-color:#404040;border-color:#fff;color:#fff}
 .custom-header .navbar-toggle:hover{background-color:#d633ff;border-color: #d633ff}
+/*header*/
 header #intro-text{padding-top:40px;color:#fff}
 #intro-text h1{ font-family: 'Montserrat', sans-serif;text-transform: uppercase;font-weight:700;
   font-size:60px;
@@ -32,3 +33,15 @@ header .welcome{font-family:"Droid Serif",sans-serif;font-style:italic;font-size
 @keyframes form{from{top:0}to{top:200px}}
 #frm-contact .form-group .form-control:focus{border-color:#d633ff;box-shadow: none;}
 div.container .alert-danger{width:200px}
+/*clock*/
+#time{
+    text-align:center;
+    font-family:serif;
+    color:#fff;
+    letter-spacing:2px;
+    font-size:50px;
+    text-shadow:5px 3px 25px #fff;
+    border-radius:30px;
+}
+#date{font-size:20px;color:white;text-align:center;font-family:serif;border-radius:30px;
+}

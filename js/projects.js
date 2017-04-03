@@ -59,7 +59,7 @@ function showPinnedRepos(data){
 	html+= '<div>';
 	$.each(data,function(i,item){
 		html+= '<h3>'+item.repo+'</h3>';
-		html+= '<span> language used: ' +item.language + '</span>'
+		html+= '<span> language used: ' +item.language +'&emsp; forks:'+ item.forks +'</span>'
 		html+= '<br>'
 	});
 	html+='</div>'

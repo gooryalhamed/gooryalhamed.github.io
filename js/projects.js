@@ -58,8 +58,8 @@ function showPinnedRepos(data){
 	var html='';
 	html+= '<div>';
 	$.each(data,function(i,item){
-		html+= '<h2>'+item.repo+'</h2>';
-		html+= '<span> created at ' +item.language + '</span>'
+		html+= '<h3>'+item.repo+'</h3>';
+		html+= '<span> language used: ' +item.language + '</span>'
 		html+= '<br>'
 	});
 	html+='</div>'

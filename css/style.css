@@ -9,7 +9,7 @@ body{background-image:url("../img/background.jpg");background-repeat: no-repeat;
 /*header*/
 header #intro-text{padding-top:40px;color:#fff}
 #intro-text h1{font-family: 'Montserrat', sans-serif;text-transform: uppercase;font-weight:700;
-font-size:60px;animation:bounceInDown 5s 1;
+font-size:60px;
 line-height:50px;
 margin-bottom:25px;}
 header .welcome{font-family:"Droid Serif",sans-serif;font-style:italic;font-size:30px;line-height:22px;margin-bottom:110px}

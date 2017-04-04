@@ -47,4 +47,4 @@ i{color:#fff}
     transform: translate3d(0,-2px,0);
   }
 }
-.row #text i{cursor: pointer;}
+.arrow{cursor: pointer;}

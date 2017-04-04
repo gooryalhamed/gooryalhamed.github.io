@@ -15,10 +15,10 @@
 	animation-duration:6s;
 	animation-fill-mode:forwards;
 }
-body{background-image:url('../img/aboutback2.jpg');color:#fff;background-size:cover}
-.row #text{padding-left:80px;z-index:0;z-index:0}
+body{overflow:hidden;background-image:url('../img/aboutback2.jpg');color:#fff;background-size:cover}
+.row #text{padding-left:80px;z-index:0}
 .row #text p{font-size:18px;opacity:0;width:450px;animation:fadeIn 6s 1.5s forwards}
-#social{list-style-type:none;position:absolute;top:170px;left:500px;z-index:600}
+#social{list-style-type:none;position:absolute;top:170px;left:550px;z-index:600}
 i{color:#fff}
 #social a{padding:20px 20px;border-radius:50%;background:transparent;border:2px solid #fff;line-height:80px}
 @keyframes fadeIn{
@@ -47,3 +47,4 @@ i{color:#fff}
     transform: translate3d(0,-2px,0);
   }
 }
+.row #text i{cursor: pointer;}

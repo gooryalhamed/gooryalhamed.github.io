@@ -6,7 +6,7 @@
 .custom-header .navbar-toggle,.custom-header .navbar-toggle:focus{background-color:#404040;border-color:#fff;color:#fff}
 .custom-header .navbar-toggle:hover{background-color:#d633ff;border-color: #d633ff}
 .container h1{color:black;font-family:'Spirax';font-size:50px;margin-bottom:40px}
-body{color:#202020;font-size:18px;overflow-x:hidden}
+body{font-size:18px;overflow-x:hidden}
 .container #success li{list-style-type:none}
 .container #success span{display:block;margin-bottom:30px;margin-top:6px}
 @media (min-width:768px) {

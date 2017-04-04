@@ -49,7 +49,7 @@ function printTime() {
 	if(secs<10){
 		secs = "0" + secs;
 	}
-	if(hours>12){hours=12 - hours;}
+	if(hours>12){hours = hours - 12;}
 	month = month + 1; document.getElementById("time").innerHTML = hours+":"+mins+":"+secs;
 	document.getElementById("date").innerHTML = day + " " + date + "/" + month + "/" + year;
 }

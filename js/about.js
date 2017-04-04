@@ -7,8 +7,8 @@ $('.row .mytext i').click(function(){
 })
 
 function showText1(){
-	var str = $('#secondp').text();
-	$('.row .mytext').html(str);
+	var html = $('#secondp').html();
+	$('.row .mytext').html(html);
 }
 
 function showText2(){

@@ -13,16 +13,17 @@
 	animation-fill-mode:forwards;
 }
 body{overflow:hidden;background-image:url('../img/aboutback2.jpg');color:#fff;background-size:cover}
-.row #text{padding-left:80px;z-index:0}
+.row #text{padding-left:80px}
 .row #text p{font-size:18px;opacity:0;width:450px;animation:fadeIn 6s 1.5s forwards}
-#social{list-style-type:none;position:absolute;top:170px;left:550px;z-index:600}
-#social a{background:transparent;color:#fff;padding:20px 20px;border-radius:50%;border:2px solid #fff;line-height:80px}
+#social{list-style-type:none;position:absolute;top:170px;left:550px}
+#social li{border: 1px solid #fff;border-radius:50%;padding:0px 12px;text-align:center;margin-bottom:8px}
+#social a{background:transparent;color:#fff;padding:15px 16px;border-radius:50%;border:2px solid #fff;line-height:80px;}
 @keyframes fadeIn{
 	0%{opacity: 0;}
 	50%{opacity: 10;}
 	100%{opacity:100;}
 }
-#social a:hover{background-color:#fff;color:#ff9933}
+#social a:hover{background-color:#fff;color:#ff9933;text-decoration:none}
 #social li:hover{animation:bounce 1s;}
 .row .mytext a{color:inherit;text-decoration:underline;}
 .fa{display:inline;}

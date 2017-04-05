@@ -10,7 +10,7 @@
 .row h1{width:80px;margin-bottom:50px;color:#202020;text-shadow:2px 2px 25px #fff;
 	animation-delay:1s;animation-duration:6s;
 }
-body{background-image:url('../img/aboutback2.jpg');color:#fff;background-size:cover}
+
 .row #text{padding-left:80px}
 .row #text p{font-size:18px;width:450px;}
 #social{list-style-type:none;position:absolute;top:140px;left:555px}

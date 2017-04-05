@@ -10,5 +10,5 @@ function showText2(){
 }
 function showText1(){
 	$('.row #secp').addClass("hidden");
-	$('.row #firstp').show()
+	$('.row #firstp').removeClass("fadein").show()
 }

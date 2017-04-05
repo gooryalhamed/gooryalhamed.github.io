@@ -1,3 +1,4 @@
+body{background-image:url('../img/aboutback2.jpg');color:#fff;background-size:cover}
 .row img{max-width:100%;}
 .row h1,h2{
   font-size:60px;margin-left:100px;font-weight:700;line-height:50px;opacity:0;

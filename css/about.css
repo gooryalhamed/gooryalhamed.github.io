@@ -24,7 +24,7 @@ body{background-image:url('../img/aboutback2.jpg');color:#fff;background-size:co
 .fadein{animation-name:fadeIn;animation-delay:1.7s;animation-duration:5s;animation-fill-mode:forwards}
 .hidden{display: none}
 #social a:hover{background-color:#fff;color:#ff9933;text-decoration:none}
-#social li:hover{animation:bounce 1s;}
+#social li:hover{animation:bounce 0.8s}
 .row .mytext a{color:inherit;text-decoration:underline;}
 .fa{display:inline;}
 @keyframes bounce {

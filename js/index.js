@@ -1,4 +1,4 @@
-$('header .container .btn-contact').click(function(){
+$('.container .btn-contact').click(function(){
 	$('#frm-contact').show();
 });
 $('#frm-contact span').click(function(){

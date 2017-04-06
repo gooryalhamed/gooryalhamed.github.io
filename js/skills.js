@@ -12,6 +12,7 @@ ourRequest.onerror = function(){
 	console.log("connection error");
 }
 ourRequest.send();
+
 function createHTML(skillsData){
 	var rowTemplate = document.getElementById("skills-template").innerHTML;
 	var compiledTemplate = Handlebars.compile(rowTemplate);

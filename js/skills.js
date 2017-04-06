@@ -1,6 +1,3 @@
-$(document).ready(function(){
-	loadSkills();
-})
 var ourRequest =new XMLHttpRequest();
 ourRequest.open('GET', '../skills.json');
 ourRequest.onload = function(){

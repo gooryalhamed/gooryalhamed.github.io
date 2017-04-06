@@ -25,11 +25,12 @@ function loadProjects(){
 function showProjects(json){
 	var data = json.slice(0,5);
 	var html = '';
-	html+= '<div>';
+	html+= '<div class="row">';
 	$.each(data,function(i,item){
+		html+= '<div class="col-sm-12">'
 		html+= '<a href="'+item.html_url+'" target="_blank">'+item.name+'</a>';
-		html+= '<span> created at ' +item.created_at + '</span>'
-		html+= '<br>'
+		html+= '<span>&emsp;created at ' +item.created_at + '</span>'
+		html+= '</div>'
 	});
 	html+='</div>'
 	$('.container .panel .panel-body').html(html);
@@ -56,11 +57,12 @@ function loadPinnedRepos(){
 }
 function showPinnedRepos(data){
 	var html='';
-	html+= '<div>';
+	html+= '<div class="row">';
 	$.each(data,function(i,item){
-		html+= '<h3>'+item.repo+'</h3>';
-		html+= '<span> language used: ' +item.language +'&emsp; forks:'+ item.forks +'</span>'
-		html+= '<br>'
+		html+= '<div class="col-sm-12">'
+		html+= '<a href="https://github.com/gooryalhamed/'+ item.repo +'" target="_blank">'+item.repo+'</a>';
+		html+= '&emsp;<span> language used: ' +item.language +'&emsp; forks:'+ item.forks +'</span>'
+		html+='</div>'
 	});
 	html+='</div>'
 	$('.container .panel .panel-body').html(html);

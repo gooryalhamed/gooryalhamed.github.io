@@ -1,5 +1,6 @@
-.container{width:500px;margin: auto}
-.container .panel{box-shadow:2px 2px 25px #606060}
-.container .panel-body a{color:black;font-size:22px}
-.container .panel-body span{display:block;margin-bottom:10px}
-.container h1{font-family:'Spirax'}
+.container{width:800px}
+.container .nav-tabs a{color:#fff;cursor:pointer;border-top:2px solid #cc99ff;border-bottom:2px solid #cc99ff;margin-right:25px;margin-bottom:30px;transition:border 1s}
+.container .nav-tabs a:hover{background-color:#cc99ff;box-shadow:1px 1px 20px #fff}
+.container .panel-body{color:#202020}
+.container .panel-body a{font-size:24px;color:black;margin-bottom:30px}
+.container .panel-body .col-sm-12{margin-bottom:20px}

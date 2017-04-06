@@ -1,9 +1,7 @@
 {
 	"skills":[
-		{
-			"name":"HTML","desc":"Stands for Hypertext Markup Language. It is the standard markup language for creating web pages and web applications."
-		},
-		{"name":"CSS","desc":"Stands for Cascading Style Sheets. It is used to style web pages."},
+		{"name":"HTML","desc":"Stands for Hypertext Markup Language. It is the standard markup language for creating web pages and web applications."},
+		{"name":"CSS","desc":"CSS stands for Cascading Style Sheets. CSS describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work. It can control the layout of multiple web pages all at once."},
 		{"name":"JS","desc":"JavaScript is a high-level interpreted programming language. It has been standardized in the ECMAScript language specification. Alongside HTML and CSS, JavaScript is one of the three core technologies of World Wide Web content production."},
 		{"name":"JQUERY","desc":"It is javascript library. JQuery's syntax is designed to make it easier to navigate a document, select DOM elements, create animations, handle events, and develop Ajax applications"},
 		{"name":"AJAX","desc":"It is a concept used in web development to send or recieve data without the need to reload the web page."},

@@ -1,8 +1,5 @@
-$(document).ready(function(){
-	var content = $('#skills-container');
-	var html = $('#skills-template').innerHTML;
-	var template = Handlebars.compile(html);
-		
-	var data = $.get('../skills.json')
-	content.html() = template(data);
-})
+$.get('../skills.json', function(data){
+      const template = Handlebars.compile($('#skills-template').html())
+      console.dir(template)
+      $('#skills-container').html(template(data))
+});

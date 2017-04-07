@@ -7,3 +7,4 @@ $.ajax({
 		const template = Handlebars.compile($('#videos-template').html())
 		$('#videos-container').html(template(data))
 	}
+})

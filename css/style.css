@@ -32,11 +32,15 @@ header .welcome{font-family:"Droid Serif",sans-serif;font-style:italic;font-size
 .btn-contact:focus,
 .btn-contact:active,
 .btn-contact.active{color:#fff;background-color:#303030;border-color:#303030}
-#frm-contact{display: none;left:420px;width:400px;height:400px;position:absolute;border:1px solid #fff;background-color:#fff;box-shadow:1px 1px 1px #ddd;animation-name:form;animation-duration:0.5s;animation-fill-mode: forwards;padding:50px 30px}
-#frm-contact span{cursor:pointer;color:#505050;font-size:20px;position:absolute;top:3px;right:10px}
-#frm-contact .col-md-6 #name,#frm-contact .col-md-6 #message,#frm-contact .col-lg-12 button{margin-top:20px}
-@keyframes form{from{top:0}to{top:200px}}
-#frm-contact .form-group .form-control:focus{border-color:#d633ff;box-shadow: none;}
+#frm-contact .container{width:800px}
+#frm-contact{position:absolute;top:0px;left:0px;width:100%;height:100%;border:1px solid #fff;background-color:#bfbfbf}
+#frm-contact #close{cursor:pointer;color:#505050;font-size:50px;position:absolute;top:100px;right:15px}
+#frm-contact #contact-me{font-size:40px}
+#frm-contact #text{margin-bottom:30px}
+.container #name,.container #message{margin-bottom:20px}
+#frm-contact button{background-color:#404040;padding:8px 16px;color:#fff;margin-top:20px;border-radius:8px;margin-left:640px}
+#frm-contact button:hover{background-color:#e066ff;color:#202020;box-shadow:1px 1px 20px #fff}
+#frm-contact .form-control,#frm-contact textarea{border-color:#404040}
 div.container .alert-danger{width:200px}
 /*clock*/
 #time{
@@ -60,6 +64,7 @@ div.container .alert-danger{width:200px}
     line-height: 75px;
     margin-bottom: 50px;
   }
+  #frm-contact{padding-top:160px}
   
 }
 

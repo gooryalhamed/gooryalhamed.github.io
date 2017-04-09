@@ -5,8 +5,8 @@
 .custom-header .nav li a:hover{color:#fff;background-color:#404040}
 .custom-header .navbar-toggle,.custom-header .navbar-toggle:focus{background-color:#404040;border-color:#fff;color:#fff}
 .custom-header .navbar-toggle:hover{background-color:#d633ff;border-color: #d633ff}
-.container h3{color:black;font-size:30px;margin-bottom:80px}
-body{font-size:18px;overflow-x:hidden}
+body{background-color:#202020;color:#fff;font-size:18px;overflow-x:hidden}
+.container h3{text-shadow:1px 1px 25px #202020;font-size:40px;margin-bottom:80px}
 .container #success li{list-style-type:none}
 .container #success span{display:block;margin-bottom:30px;margin-top:6px}
 @media (min-width:768px) {

@@ -4,10 +4,7 @@ $('.container .btn-contact').click(function(){
 $('#frm-contact span').click(function(){
 	$('#frm-contact').hide();
 });
-$('#frm-contact #success > .close').click(function(){
-	//$('#frm-contact #success .alert-danger').hide();
-	alert('close')
-});
+
 function printTime() {
 	var d = new Date();
 	var hours = d.getHours();

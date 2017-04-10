@@ -32,16 +32,14 @@ header .welcome{font-family:"Droid Serif",sans-serif;font-style:italic;font-size
 .btn-contact:focus,
 .btn-contact:active,
 .btn-contact.active{color:#fff;background-color:#303030;border-color:#303030}
-#frm-contact .container{width:800px}
-#frm-contact{display:none;position:absolute;top:0px;left:0px;width:100%;height:100%;border:1px solid #fff;background-color:#bfbfbf}
+#frm-contact{position:absolute;top:0px;left:0px;width:100%;height:100%;border:1px solid #fff;background-color:#bfbfbf}
 #frm-contact #close{cursor:pointer;color:#505050;font-size:50px;position:absolute;top:100px;right:15px}
 #frm-contact #contact-me{font-size:40px}
 #frm-contact #text{margin-bottom:30px}
-.container #name,.container #message{margin-bottom:20px}
-#frm-contact button{background-color:#404040;padding:8px 16px;color:#fff;margin-top:20px;border-radius:8px;margin-left:640px}
+#frm-contact button{background-color:#404040;padding:8px 16px;color:#fff;margin-top:20px;border-radius:8px}
 #frm-contact button:hover{background-color:#e066ff;color:#202020;box-shadow:1px 1px 20px #fff}
-#frm-contact .form-control,#frm-contact textarea{border-color:#404040}
-div.container .alert-danger{width:200px}
+#frm-contact input{width:300px;margin-bottom:20px}
+#frm-contact textarea{padding-top:6px;padding-left:12px;border-radius:4px;box-shadow: inset 0 1px 1px rgba(0,0,0,.075);border:1px solid #ccc;}
 /*clock*/
 #time{
   text-align:center;
@@ -67,14 +65,18 @@ div.container .alert-danger{width:200px}
   #frm-contact{padding-top:160px}
   
 }
-
 @media (max-width:767px){
-  header{padding-top:130px}
+  header{padding-top:160px}
   header #intro-text h1{font-size:50px}
+  #frm-contact{padding-top:160px}
+  #frm-contact button{margin-left:100px}
 }
 @media (max-width:670px) {
   header #intro-text h1{font-size:40px}
 }
 @media (max-width:1000px) {
   body{background-size:auto;}
+}
+@media(min-width:990px){
+  #frm-contact #first{margin-right:-150px}
 }

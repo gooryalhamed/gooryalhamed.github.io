@@ -32,7 +32,7 @@ header .welcome{font-family:"Droid Serif",sans-serif;font-style:italic;font-size
 .btn-contact:focus,
 .btn-contact:active,
 .btn-contact.active{color:#fff;background-color:#303030;border-color:#303030}
-#frm-contact{position:absolute;top:0px;left:0px;width:100%;height:100%;border:1px solid #fff;background-color:#bfbfbf}
+#frm-contact{display:none;position:absolute;top:0px;left:0px;width:100%;height:100%;border:1px solid #fff;background-color:#bfbfbf}
 #frm-contact #close{cursor:pointer;color:#505050;font-size:50px;position:absolute;top:100px;right:15px}
 #frm-contact #contact-me{font-size:40px}
 #frm-contact #text{margin-bottom:30px}

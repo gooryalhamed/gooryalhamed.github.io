@@ -1,10 +1,3 @@
-$('.container .btn-contact').click(function(){
-	$('#frm-contact').show();
-});
-$('#frm-contact span').click(function(){
-	$('#frm-contact').hide();
-});
-
 function printTime() {
 	var d = new Date();
 	var hours = d.getHours();
@@ -51,4 +44,4 @@ function printTime() {
 	document.getElementById("date").innerHTML = day + " " + date + "/" + month + "/" + year;
 }
 setTimeout(printTime, 1);
-setInterval(printTime, 1000);
+setInterval(printTime, 1000); /*to repeat executing setTimeout() every 1 sec*/

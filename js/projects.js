@@ -3,14 +3,13 @@ $(document).ready(function(){
 	onClickCurrent();
 	onClickFavorite()
 });
-
 function onClickCurrent(){
+	$('.container .fa-spinner').fadeIn();
 	$('.container #current').click(function(event){
 		loadProjects();
 		event.preventDefault();
 	});	
 }  
-
 function loadProjects(){
 	$.ajax({
 		url:'https://api.github.com/users/gooryalhamed/repos?sort=created',
@@ -21,6 +20,8 @@ function loadProjects(){
 		},
 		fail:showError
 	})
+	$('.container .fa-spinner').fadeOut(1000);
+
 }
 function showProjects(json){
 	var data = json.slice(0,5);
@@ -40,6 +41,7 @@ function showError(error){
 }
 /* favorite */
 function onClickFavorite(){
+	$('.container .fa-spinner').fadeIn();
 	$('.container #favorite').click(function(event){
 		loadPinnedRepos();
 		event.preventDefault();
@@ -54,6 +56,7 @@ function loadPinnedRepos(){
 			showPinnedRepos(data);
 		}
 	});
+	$('.container .fa-spinner').fadeOut(1000);
 }
 function showPinnedRepos(data){
 	var html='';

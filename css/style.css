@@ -73,11 +73,12 @@ animation:swashIn 1s linear 4s forwards;
 }
 @media (max-width:767px){
   header{padding-top:160px}
-  header #intro-text h1{font-size:50px}
+  header #intro-text h1{font-size:34px}
   #frm-contact{padding-top:160px}
-}
-@media (max-width:670px) {
-  header #intro-text h1{font-size:40px}
+ @keyframes typing {
+  from {width:0}
+  to {width:410px}
+} 
 }
 @media (max-width:1000px) {
   body{background-size:auto;}

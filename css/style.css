@@ -8,66 +8,77 @@ body{background-image:url("../img/background.jpg");background-repeat: no-repeat;
 .custom-header .navbar-toggle:hover{background-color:#d633ff;border-color: #d633ff}
 .custom-header .fa{margin-top:20px;color:#303030;cursor:pointer;margin-right:5px}
 /*header*/
-header #intro-text{padding-top:40px;color:#fff}
-#intro-text h1{font-family: 'Montserrat', sans-serif;text-transform: uppercase;font-weight:700;
-font-size:60px;
-line-height:50px;
-margin-bottom:25px;}
+header #intro-text{
+  padding-top:40px;color:#fff;}
+  #intro-text h1{font-family:'Montserrat', sans-serif;text-transform: uppercase;font-weight:700;
+  font-size:60px;line-height:50px;margin-bottom:25px;
+  overflow: hidden;
+  border-right: 3px solid orange;
+  white-space: nowrap;/* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing:2px;  
+  animation:typing 6s steps(40)
+}
 header .welcome{font-family:"Droid Serif",sans-serif;font-style:italic;font-size:30px;line-height:22px;margin-bottom:20px}
-  @keyframes pulse {
-    0% {
-      transform: scale(1) rotate(0deg); 
-    }
-    50% {
-      transform: scale(1.1) rotate(-5deg); 
-    }
-    100% {
-      transform: scale(1) rotate(0deg); 
-    }
+#frm-contact{display:none;position:absolute;top:0px;left:0px;width:100%;height:100%;border:1px solid #fff;background-color:#bfbfbf}
+#frm-contact #close{cursor:pointer;color:#505050;font-size:50px;position:absolute;top:100px;right:15px}
+#frm-contact #contact-me{font-size:40px}
+#frm-contact #text{margin-bottom:30px}
+#frm-contact button{background-color:#404040;padding:8px 16px;color:#fff;margin-top:20px;border-radius:8px}
+#frm-contact button:hover{background-color:#e066ff;color:#202020;box-shadow:1px 1px 20px #fff}
+#frm-contact input{width:300px;margin-bottom:20px}
+#frm-contact textarea{padding-top:6px;padding-left:12px;border-radius:4px;box-shadow: inset 0 1px 1px rgba(0,0,0,.075);border:1px solid #ccc;}
+/*clock*/
+#time{
+  text-align:center;
+  font-family:serif;
+  color:#fff;
+  letter-spacing:2px;
+  font-size:50px;
+  text-shadow:5px 3px 30px #fff;
+  border-radius:30px;
+}
+#date{font-size:20px;color:white;text-align:center;font-family:serif;border-radius:30px;
+}
+/*animations*/
+@keyframes pulse {
+  0% {
+    transform: scale(1) rotate(0deg); 
   }
-  #frm-contact{display:none;position:absolute;top:0px;left:0px;width:100%;height:100%;border:1px solid #fff;background-color:#bfbfbf}
-  #frm-contact #close{cursor:pointer;color:#505050;font-size:50px;position:absolute;top:100px;right:15px}
-  #frm-contact #contact-me{font-size:40px}
-  #frm-contact #text{margin-bottom:30px}
-  #frm-contact button{background-color:#404040;padding:8px 16px;color:#fff;margin-top:20px;border-radius:8px}
-  #frm-contact button:hover{background-color:#e066ff;color:#202020;box-shadow:1px 1px 20px #fff}
-  #frm-contact input{width:300px;margin-bottom:20px}
-  #frm-contact textarea{padding-top:6px;padding-left:12px;border-radius:4px;box-shadow: inset 0 1px 1px rgba(0,0,0,.075);border:1px solid #ccc;}
-  /*clock*/
-  #time{
-    text-align:center;
-    font-family:serif;
-    color:#fff;
-    letter-spacing:2px;
-    font-size:50px;
-    text-shadow:5px 3px 30px #fff;
-    border-radius:30px;
+  50% {
+    transform: scale(1.1) rotate(-5deg); 
   }
-  #date{font-size:20px;color:white;text-align:center;font-family:serif;border-radius:30px;
+  100% {
+    transform: scale(1) rotate(0deg); 
   }
-  /* responsive */
-  @media (min-width:768px) {
-    .custom-header{padding:20px 0;transition: padding 0.3s;}
-    .custom-header .navbar-brand{transition: all 0.5s}
-    header{padding-top:160px}
-    header #intro-text h1{
-      font-size: 55px;
-      line-height: 75px;
-      margin-bottom: 50px;
-    }
-    #frm-contact{padding-top:160px}
+}
+@keyframes typing {
+  from {width:0}
+  to {width:100%}
+}
+/* responsive */
+@media (min-width:768px) {
+  .custom-header{padding:20px 0;transition: padding 0.3s;}
+  .custom-header .navbar-brand{transition: all 0.5s}
+  header{padding-top:160px}
+  header #intro-text h1{
+    font-size: 55px;
+    line-height: 75px;
+    margin-bottom: 50px;
   }
-  @media (max-width:767px){
-    header{padding-top:160px}
-    header #intro-text h1{font-size:50px}
-    #frm-contact{padding-top:160px}
-  }
-  @media (max-width:670px) {
-    header #intro-text h1{font-size:40px}
-  }
-  @media (max-width:1000px) {
-    body{background-size:auto;}
-  }
-  @media(min-width:990px){
-    #frm-contact #first{margin-right:-170px}
-  }
+  #frm-contact{padding-top:160px}
+}
+@media (max-width:767px){
+  header{padding-top:160px}
+  header #intro-text h1{font-size:50px}
+  #frm-contact{padding-top:160px}
+}
+@media (max-width:670px) {
+  header #intro-text h1{font-size:40px}
+}
+@media (max-width:1000px) {
+  body{background-size:auto;}
+}
+@media(min-width:990px){
+  #frm-contact #first{margin-right:-170px}
+}

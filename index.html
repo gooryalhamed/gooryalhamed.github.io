@@ -60,19 +60,21 @@
 				<span id="contact-me">CONTACT ME</span>
 				<p>&emsp;&emsp;looking forward to recieve your email.</p>
 			</div>
-			<form name="sentMessage" id="contactForm" onsubmit="submitForm();return false;">
+			<form name="sentMessage" onsubmit="submitForm();return false;">
 				<div class="row">
 					<div class="col-sm-6 col-xs-12" id="first">
-						<input type="text" placeholder="your name*" id="name" class="form-control">
-						<input type="text" placeholder="your email*" id="email" class="form-control">
+						<input type="text" placeholder="your name*" id="name" class="form-control" required>
+						<input type="email" placeholder="your email*" id="email" class="form-control" required>
 					</div>
 					<div class="col-sm-6 col-xs-12">
-						<textarea name="" id="message" cols="35" rows="6" placeholder="your message*"></textarea>
+						<textarea name="" id="message" cols="34" rows="6" placeholder="your message*" required></textarea>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-sm-6 col-xs-12">
-						<button id="btn-contact">send message</button>
+						<button type="submit" id="send">send message</button>
+						<span id="status"></span>
+						<div id="thanks-msg"></div>
 					</div>
 				</div>
 			</form>

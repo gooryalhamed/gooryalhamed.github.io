@@ -64,11 +64,8 @@ header{padding-top:140px}
   #my_image img{max-width:60%;margin-left:40px}
 }
 @media (max-width:768px) {
-  #social{margin-top:550px}
+  #social{margin-top:500px}
 }
 @media (max-width:640px) {
   #social li{margin-bottom:4px}
-}
-@media (max-width:580px) {
-  
 }

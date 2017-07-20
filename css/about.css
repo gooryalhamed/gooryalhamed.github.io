@@ -24,8 +24,8 @@ body{background-image:url('../img/aboutback2.jpg');color:#fff;background-size:co
 }
 .fadein{opacity:0;animation-name:fadeIn;animation-delay:1.7s;animation-duration:5s;animation-fill-mode:forwards}
 .hidden{display: none}
-#social a:hover{background-color:#fff;color:#ff9933}
-#social a,#social a:hover,#social a:active{text-decoration:none;}
+#social a:hover{background-color:#fff;color:#ff9933;text-decoration:none}
+#social a,#social a:active{text-decoration:none}
 #social li:hover{animation:bounce 0.8s}
 .row .mytext a{color:inherit;text-decoration:underline;}
 #social .fa{display:inline;font-size:120%}

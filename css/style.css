@@ -1,5 +1,5 @@
 body{background-image:url("../img/background.jpg");background-repeat: no-repeat;background-size:cover;overflow:hidden;}
-.custom-header{background:#e6e6e6;border-radius:0;}
+.custom-header{background:#e6e6e6;border-radius:0;padding:20px 0;}
 .custom-header .navbar-brand{color:#404040;font-family:cookie;font-size:32px}
 .custom-header .nav li{border-radius:8px}
 .custom-header .nav li a{letter-spacing: 2px;font-size:18px;color:#404040}
@@ -8,15 +8,16 @@ body{background-image:url("../img/background.jpg");background-repeat: no-repeat;
 .custom-header .navbar-toggle:hover{background-color:#d633ff;border-color: #d633ff}
 #social-nav .fa{margin-top:20px;color:#303030;cursor:pointer;margin-right:5px}
 /*header*/
-header #intro-text{padding-top:40px;color:#fff}
-#intro-text h1{margin:0 auto;width:650px;font-family:'Montserrat', sans-serif;text-transform: uppercase;font-weight:700;
-font-size:60px;line-height:50px;margin-bottom:25px;
+header{padding-top:200px;}
+header #intro-text{color:#fff}
+#intro-text h1{margin:0 auto;width:0px;font-family:'Montserrat', sans-serif;text-transform: uppercase;font-weight:700;
+font-size:60px;line-height:50px;margin-bottom:35px;
 overflow: hidden;
 border-right: 3px solid #ff9933;
 white-space: nowrap;/* Keeps the content on a single line */
 /* Gives that scrolling effect as the typing happens */
 letter-spacing:2px;  
-animation:typing 4s steps(20)
+animation:typing 4s steps(20) forwards
 }
 header .welcome{opacity:0;font-family:"Droid Serif",sans-serif;font-style:italic;font-size:30px;line-height:22px;margin-bottom:20px;
 animation:swashIn 1s linear 4s forwards;
@@ -35,12 +36,14 @@ animation:swashIn 1s linear 4s forwards;
   color:#fff;
   letter-spacing:2px;
   text-shadow:5px 3px 30px #fff;
+  font-size:18px;
+  position:absolute;bottom:10px;left:10px;
+  border:2px solid #111;padding:5px;
 }
-#time-wrap{font-size:50px;color:#fff}
 /*animations*/
 @keyframes typing {
   from {width:0}
-  to {width:650px}
+  to {width:700px}
 }
 @keyframes swashIn {
   0% {
@@ -60,29 +63,40 @@ animation:swashIn 1s linear 4s forwards;
   }
 }
 /* responsive */
-@media (min-width:768px) {
-  .custom-header{padding:20px 0;transition: padding 0.3s;}
-  .custom-header .navbar-brand{transition: all 0.5s}
-  header{padding-top:160px}
-  header #intro-text h1{
-    font-size: 55px;
-    line-height: 75px;
-    margin-bottom: 50px;
-  }
-  #frm-contact{padding-top:160px}
-}
-@media (max-width:767px){
-  header{padding-top:160px}
-  header #intro-text h1{font-size:34px}
-  #frm-contact{padding-top:160px}
- @keyframes typing {
-  from {width:0}
-  to {width:410px}
-} 
-}
 @media (max-width:1000px) {
-  body{background-size:auto;}
+  body{background-size: auto}
 }
 @media(min-width:990px){
   #frm-contact #first{margin-right:-170px}
+}
+@media (max-width:768px) {
+  #intro-text h1{font-size:45px}
+  @keyframes typing {
+    from {width:0}
+    to {width:560px}
+  }
+  body{background-size:800px 700px}
+}
+@media (max-width:640px) {
+  #intro-text h1{font-size:38px}
+   @keyframes typing {
+    from {width:0}
+    to {width:480px}
+  }
+  header .welcome{font-size:25px}
+}
+@media (max-width:485px) {
+  #intro-text h1{font-size:30px}
+    @keyframes typing {
+    from {width:0}
+    to {width:400px}
+  }
+}
+@media (max-width:410px) {
+  #intro-text h1{font-size:27px}
+    @keyframes typing {
+    from {width:0}
+    to {width:360px}
+  }
+  header .welcome{font-size:22px}
 }

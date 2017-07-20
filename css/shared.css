@@ -7,7 +7,7 @@
 .custom-header .navbar-toggle:hover{background-color:#d633ff;border-color: #d633ff}
 #social-nav .fa{margin-top:20px;color:#303030;cursor:pointer;margin-right:5px}
 #social-nav a,#social-nav a:hover,#social-nav a:active{text-decoration:none}
-#frm-contact{padding-top:80px;position:absolute;top:0px;left:0px;width:100%;height:100%;border:1px solid #fff;background-color:#bfbfbf;color:#404040}
+#frm-contact{display: none;padding-top:80px;position:absolute;top:0px;left:0px;width:100%;height:100%;border:1px solid #fff;background-color:#bfbfbf;color:#404040}
 #frm-contact #close{cursor:pointer;color:#505050;font-size:50px;position:absolute;top:100px;right:15px}
 #frm-contact #contact-me{font-size:40px}
 #frm-contact #text{margin-bottom:30px}
